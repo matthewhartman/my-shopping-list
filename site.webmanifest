@@ -1,0 +1,30 @@
+{
+  "display": "standalone",
+  "icons": [
+    {
+      "sizes": "144x144",
+      "src": "/my-shopping-list/android-chrome-144x144.png",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "sizes": "192x192",
+      "src": "/my-shopping-list/android-chrome-192x192.png",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "sizes": "512x512",
+      "src": "/my-shopping-list/android-chrome-512x512.png",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ],
+  "name": "My Shopping List",
+  "short_name": "My Shopping List",
+  "description": "A quick and nimble shopping list application for everyday people.",
+  "start_url": "/my-shopping-list/dist/",
+  "scope": "/my-shopping-list/",
+  "theme_color": "#000000",
+  "background_color": "#000000"
+}

@@ -6,7 +6,7 @@ Make sure to check out the [blog post on how to create your first web applicatio
 
 ## Demo
 
-[View the online demo](https://matthewhartman.github.io/my-shopping-list/dist/index.html)
+[View the online demo](https://matthewhartman.github.io/my-shopping-list/dist/)
 
 ## Getting Started
 
