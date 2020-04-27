@@ -3,14 +3,16 @@
   "version": "1.0.0",
   "description": "A quick and nimble shopping list application for everyday people.",
   "scripts": {
-    "start": "NODE_ENV=development parcel src/index.html --open",
     "build": "NODE_ENV=production rm -rf dist && tsc --noEmit && parcel build src/index.html",
-    "clean": "rm -rf dist"
+    "clean": "rm -rf dist",
+    "lint": "tslint --project \".\"",
+    "start": "NODE_ENV=development parcel src/index.html --open"
   },
   "private": true,
   "devDependencies": {
     "parcel-bundler": "^1.12.4",
     "sass": "^1.26.2",
+    "tslint": "^6.1.1",
     "typescript": "^3.8.3"
   }
 }

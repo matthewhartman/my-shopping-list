@@ -98,9 +98,9 @@ export class MyShoppingList {
     const value = inputEl.value;
     const updateItems = this.items.map((item: Item) => {
       if (item.id === id) {
-        return { id, value }
+        return { id, value };
       }
-      return item
+      return item;
     });
     this.items = updateItems;
     this.updateLocalStorageItems(this.items);
@@ -108,7 +108,7 @@ export class MyShoppingList {
 
   public removeItem(buttonEl: HTMLButtonElement): void {
     const id = buttonEl.getAttribute('data-id');
-    const updateItems = this.items.filter((item: Item) => item.id != id);
+    const updateItems = this.items.filter((item: Item) => item.id !== id);
     if (buttonEl.closest('.edit-item') !== null) {
       buttonEl.closest('.edit-item')?.remove();
     }
